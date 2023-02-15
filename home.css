@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(17, 173, 173);
+}
+
+.item
+{
+    color: wheat;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+.box{
+    border-radius: 12px;
+    background-color: rgb(129, 70, 136);
+    width:400px;
+    padding: 20px;
+    margin-left: 34%;
+    margin-top: 50px;
+    color: white;
+    position: relative;
+}
+
+.sb{
+    color:rgb(4, 56, 41);
+    background-color: rgb(240, 158, 158);
+    border-radius: 20px;
+    width: 210px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 20px;
+    padding: 10px;
+    border-color: white;
+}
+
+.sb:hover{
+    background-color: #d573d8; 
+    color: white;
+}
+
+.u{
+   background-color: rgba(46, 139, 86, 0);
+   border-color:white;
+   width: 200px;
+   height: 30px;
+   border-top: 20px;
+   border-left: 20px;
+   border-right: 20px;
+   padding-left: 5px;
+   color: white;
+   font-family: sans-serif;
+}
+
+.u::placeholder{
+   color: white;
+   opacity: 0.5;
+}
+
+#logout {
+    width: 100px;
+    height: 33px;
+    background-color: rgb(66, 116, 156);
+    border-radius: 13px;
+    margin-top: 5px;
+    margin-left: 1330px;
+    font-size: 22px;
+    padding-left: 33px;
+    padding-right: 5px;
+}
+
+#logout a {
+    color: white;
+    text-decoration: none;
+}
