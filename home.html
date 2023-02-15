@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="home.css">
+    </head>
+    <body>
+        <h2 style="color: blueviolet; background-color: aquamarine;"> Welcome! </h2> <br>
+
+        <div id="logout">
+            <a href="login.html">Logout</a>
+        </div>
+
+        <div class="box">
+            <h1 style="font-family:sans-serif;"> Channel Your Doctor Now! </h1><hr>
+            <p class="item"> Available Doctors: </p>
+
+            <ol>
+                <li class="item">Dr. Rathnayake</li>
+                <li class="item">Dr. Jayasekara</li>
+                <li class="item">Dr. Peris</li>
+                <li class="item">Dr. Fernando</li>
+                <li class="item">Dr. Walpola</li>
+            </ol>
+
+            <form method="POST" action="showDoctor.php">
+                <input type="text" name="dno" class="u" placeholder="Enter a doctor number">
+                <button type="submit" class="sb" name="submit"> Find </button>
+            </form>
+        </div>
+   
+    </body>
+</html>
